@@ -3,7 +3,17 @@
     padding: 0;
     box-sizing: border-box;
   }
+ /*comuni*/
+ img{
+    max-width: 100%;
+    display: block;
+ }
 
+  /* container*/
+  .container-jumbo{
+    max-width: 1190px;
+    margin: 0 auto;
+  }
 
 
 /*stile liste */
@@ -11,7 +21,9 @@ li{
     list-style: none;
 }
 /* background*/
-
+section{
+    background-color: #b4d0e6;
+}
 
 
 /* flex */
@@ -29,4 +41,9 @@ li{
 /* padding*/
 header{
     padding: 30px 20px;
+}
+
+/* larghezza*/
+.wh-50{
+    width: 50%;
 }
