@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
   }
+
  /*comuni*/
 
 
@@ -15,6 +16,9 @@
  }
 
   /* container*/
+  header{
+        min-height: 80px;
+  }
   .container-jumbo{
     max-width: 1190px;
     margin: 0 auto;
@@ -63,9 +67,8 @@ footer{
 }
 
 /* padding*/
-header{
-    padding: 30px 20px;
-}
+
+
 .bt-blu{
     padding: 10px;
 }
@@ -84,9 +87,23 @@ header{
 .wh20{
     max-width: 20%;
 }
+.wh-90px{
+    padding: 90px 0px;
+}
 
+/*margine*/
+
+
+.mgbt-35px{
+    margin: 35px 0px;
+}
+.margin-20-30{
+    margin: 30px 20px;
+}
 
 /* bordi */
+
+
 .border{
     border: 2px  solid black;
 }
@@ -114,9 +131,10 @@ header{
 
 
 /* testo*/
-*{
-    font-family: ;
-}
+
 h1{
     font-size: 80px;
+}
+h5{
+    font-size: 24px;
 }
