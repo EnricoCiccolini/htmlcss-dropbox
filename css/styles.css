@@ -19,7 +19,7 @@
     margin: 0 auto;
 }
 .table{
-    max-width: calc((100%-20px):3);
+    max-width: calc(100% /3);
 }
 
 /*stile liste */
@@ -45,6 +45,9 @@ li{
 }
 .colonnum{
  flex-direction: column;
+}
+.wrap{
+    flex-wrap: wrap;
 }
 
 /* padding*/
