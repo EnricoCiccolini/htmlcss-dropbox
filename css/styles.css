@@ -14,14 +14,20 @@
     max-width: 1190px;
     margin: 0 auto;
   }
-
+.container-main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.table{
+    max-width: calc((100%-20px):3);
+}
 
 /*stile liste */
 li{
     list-style: none;
 }
 /* background*/
-section{
+.bg-celeste{
     background-color: #b4d0e6;
 }
 
@@ -37,6 +43,9 @@ section{
 .gap{
     gap: 20px;
 }
+.colonnum{
+ flex-direction: column;
+}
 
 /* padding*/
 header{
@@ -46,4 +55,19 @@ header{
 /* larghezza*/
 .wh-50{
     width: 50%;
+}
+
+.wh-30{
+    width: 30%;
+}
+.wh-70{
+    width: 70%;
+}
+
+
+
+
+/* bordi */
+.border{
+    border: 2px  solid black;
 }
