@@ -16,7 +16,11 @@
  }
 
   /* container*/
-  header{
+
+  .hg-100{
+    height: 100%;
+  }
+  .hg-min{
         min-height: 80px;
   }
   .container-jumbo{
@@ -119,7 +123,7 @@ footer{
     text-decoration: none;
     color: #2f2f2f ;
 }
-:hover.linktop{
+.linea:hover{
     border-bottom: 2px solid #000;
 }
 
@@ -137,4 +141,23 @@ h1{
 }
 h5{
     font-size: 24px;
+}
+/*  banner */
+
+.imgtop{
+   align-self: center;
+}
+.linea{
+    line-height: 100px;
+}
+
+
+/*position*/
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 3;
 }
