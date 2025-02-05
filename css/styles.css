@@ -30,7 +30,14 @@ li{
 .bg-celeste{
     background-color: #b4d0e6;
 }
+.bg-nero{
+    background-color: #000;
+}
 
+/*colore testo*/
+footer{
+    color: #ffffff;
+}
 
 /* flex */
 .flex{
@@ -67,10 +74,18 @@ header{
     width: 70%;
 }
 
-
+.wh20{
+    max-width: 20%;
+}
 
 
 /* bordi */
 .border{
     border: 2px  solid black;
+}
+.border-top{
+    border-top: 2px solid green;
+}
+.border-bot{
+    border-bottom: 2px solid black;
 }
