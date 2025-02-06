@@ -160,9 +160,17 @@ footer{
 }
 /* bordi */
 
+.bordo-alto{
+    border-top: 2px  solid #d0cfd4;
+}
+
 
 .border{
     border: 2px  solid #d0cfd4;
+}
+
+.bordo-basso{
+    border-bottom: 2px solid #d0cfd4  ;
 }
 .border-top{
     border-top: 2px solid green;
