@@ -5,7 +5,10 @@
   }
 
  /*comuni*/
-
+ body{
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+ }
 
  button{
     all: unset;
@@ -76,10 +79,21 @@ footer{
 .bt-blu{
     padding: 10px;
 }
+
+
 /* larghezza*/
 .wh-50{
     width: 50%;
 }
+
+.wh-40{
+    width: 40%;
+}
+.wh-60{
+    width: 60%;
+}
+
+
 
 .wh-30{
     width: 30%;
@@ -104,7 +118,9 @@ footer{
 .margin-20-30{
     margin: 30px 20px;
 }
-
+.mb-35{
+    margin-bottom: 35px;
+}
 /* bordi */
 
 
@@ -116,6 +132,12 @@ footer{
 }
 .border-bot{
     border-bottom: 2px solid black;
+}
+.mb-80{
+    margin-bottom: 80px;
+}
+.mb-100{
+    margin-bottom: 200px;
 }
 
 /* stile link */
@@ -132,7 +154,9 @@ footer{
     background-color:#0061ff ;
     color:#ffffff ;
 }
-
+.bt-blu:hover {
+    filter: brightness(1.4);
+  }
 
 /* testo*/
 
@@ -141,6 +165,10 @@ h1{
 }
 h5{
     font-size: 24px;
+}
+
+.fs-16{
+    font-size: 16px;
 }
 /*  banner */
 
@@ -160,4 +188,8 @@ header{
     left: 0;
     background-color: #ffffff;
     z-index: 3;
+}
+.container-jumbo{
+    position: relative;
+    top: 80px;
 }
