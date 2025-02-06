@@ -42,6 +42,9 @@
 li{
     list-style: none;
 }
+.spunta{
+    list-style: ; 
+}
 /* background*/
 .bg-celeste{
     background-color: #b4d0e6;
@@ -53,6 +56,9 @@ li{
 /*colore testo*/
 footer{
     color: #ffffff;
+}
+.grey{
+    color: #d0cfd4;
 }
 
 /* flex */
@@ -74,6 +80,9 @@ footer{
 }
 
 /* padding*/
+.pd-30{
+    padding: 30px;
+}
 
 
 .bt-blu{
@@ -82,6 +91,9 @@ footer{
 
 
 /* larghezza*/
+.max{
+    width: auto;
+}
 .wh-50{
     width: 50%;
 }
@@ -121,6 +133,18 @@ footer{
 .mb-35{
     margin-bottom: 35px;
 }
+.mg-25{
+    margin-bottom: 25px;
+}
+.mg-15{
+    margin-bottom: 15px;
+}
+.mg50{
+    margin-bottom: 50px;
+}
+.mg-90{
+    margin-bottom: 90px;
+}
 /* bordi */
 
 
@@ -138,6 +162,15 @@ footer{
 }
 .mb-100{
     margin-bottom: 200px;
+}
+.radio{
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 23px;
+}
+.bb{
+    border: 4px solid;
+    border-color: #0061ff;
 }
 
 /* stile link */
@@ -169,6 +202,18 @@ h5{
 
 .fs-16{
     font-size: 16px;
+}
+.fs40{
+    font-size: 40px;
+}
+.center{
+    text-align: center;
+}
+.fs-22{
+    font-size: 22px;
+}
+.bold{
+    font-weight: bold;
 }
 /*  banner */
 
