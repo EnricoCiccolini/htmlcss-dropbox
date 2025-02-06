@@ -83,6 +83,9 @@ footer{
 .pd-30{
     padding: 30px;
 }
+.pd-50{
+    padding: 50px;
+}
 
 
 .bt-blu{
@@ -190,6 +193,18 @@ footer{
 .bt-blu:hover {
     filter: brightness(1.4);
   }
+
+
+  .bt-bianco{
+    background-color:#ffffff ;
+    color:#000 ;
+    border: 2px solid black;
+    padding: 10px;
+}
+.bt-blu:hover {
+    filter: brightness(1.4);
+  }
+
 
 /* testo*/
 
